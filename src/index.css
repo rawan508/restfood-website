@@ -1,0 +1,435 @@
+:root{
+  height: 100svh;
+}
+
+.header{
+  background-image: url(/public/bg-header.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.collapse ul li a{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.collapse ul li a:hover{
+  color: #ffcc33;
+}
+.best{
+  padding: 150px 200px;
+  width: 60%;
+}
+.best h1{
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  color: white;
+  margin-bottom: 20px;
+}
+.best p{
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.best a{
+  padding: 8px 16px;
+  color: black;
+  background-color: #ffcc33;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 3px;
+  letter-spacing: 4px;
+}
+.best a:hover{
+  background-color: rgb(175, 175, 175);
+  color: white;
+}
+
+  /* end section */
+
+.our{
+  padding-top: 80px ;
+  background-color: black;
+}
+.our .main{
+  text-align: center;
+}
+.our .main h2{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.our .main p{
+  color: gray;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px ;
+}
+.items .item img{
+  width: 270px;
+}
+.items .item{
+  text-align: center;
+}
+.items .item h4{
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.items .item p{
+  color: gray;
+}
+.items .item a{
+  color: #ffcc33;
+  text-decoration: none;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+    /* end section */
+
+.aboutus{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  padding-top: 200px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+.aboutus .photo img{
+  width: 500px;
+}
+.aboutus .about{
+  width: 35%;
+}
+.aboutus .about h2{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.aboutus .about p{
+  color: gray;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+}
+.icons .icon img{
+  margin-bottom: 15px;
+}
+.icons .icon h6{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+}
+
+    /* end section  */
+
+.off{
+  background-image: url(/public/bg-offer2.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.off .dis{
+  padding: 100px 150px;
+  width: 50%;
+
+}
+.off .dis h4{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.off .dis a{
+  padding: 8px 16px;
+  background-color: #ffcc33;
+  color: black;
+  text-decoration: none;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  letter-spacing: 5px;
+  border-radius: 3px;
+}
+
+    /* end section  */
+
+.chefs{
+  background-color: black;
+  padding-top: 70px;
+}
+.chefs .fav{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.chefs .fav h2{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+}
+.chefs .fav p{
+  color: gray;
+}
+.chef{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.chef .chef1{
+  text-align: center;
+}
+.chef .chef1 img{
+  width: 270px;
+  margin-bottom: 15px;
+}
+.chef .chef1 h4{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.chef .chef1 p{
+  color: gray;
+  font-size: 18px;
+}
+.chef .chef1 i{
+  color: #ffcc33;
+  margin: 10px;
+}
+.menus{
+  background-color: black;
+  text-align: center;
+  padding-top: 250px;
+}
+.menus h2{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.menus .all a{
+  padding: 10px 20px;
+  background-color: #ffcc33;
+  color: black;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 19px;
+  transition: 0.3s;
+}
+.menus .all a:hover{
+  background-color: gray;
+  color: white;
+}
+
+
+.category{
+  width: 100%;
+  padding: 20px 150px;
+}
+
+.categ img{
+  padding-top: 30px;
+  
+}
+.item-body h5{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+} 
+.item-body p{
+  color: gray;
+}
+.item-body a{
+  color: #ffcc33;
+  text-decoration: none;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+}
+
+.category2{
+  width: 100%;
+  padding: 20px 150px;
+}
+
+    /* end section */
+
+.gallery{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.gallery h2{
+    color: white;
+    font-family: "Tilt Warp", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+.gall{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 393px));
+    grid-template-rows: repeat(2, minmax(200px));
+    margin-top: 70px;
+    margin-left: 170px;
+}
+.gall img{
+    width: 393px;
+    height: 262px;
+}
+
+    /* end section  */
+
+.tabl{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+.tabl h2{
+    color: white;
+    font-family: "Tilt Warp", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+.tab{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    padding-top: 80px;
+}
+form{
+    width: 20%;
+}
+.tab form label{
+    color: #ffcc33ff;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: "Tilt Warp", sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.tab form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+.tab form input:focus{
+    border-color: #ffcc33ff;
+    color: white;
+}
+.tab .open{
+    width: 27%;
+}
+.tab .open h3{
+    font-family: "Tilt Warp", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    background-color: #000;
+}
+.tab .open p{
+    color: #ccccccc4;
+    margin-top: 20px;
+    font-size: 19px;
+    background-color: black;
+}
+.tabl .lin{
+    padding:20px 125px;
+}
+.tabl .lin a{
+    padding: 8px 16px;
+    background-color: #ffcc33ff;
+    font-family: "Tilt Warp", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    border-radius: 3px;
+}
+.tabl .lin a:hover{
+    color: white;
+    background-color: #ccc;
+}
+
+    /* end section  */
+
+
+.contacts{
+  background-color: #000;
+  padding-top:50px ;
+}
+.contacts h2{
+  color: white;
+  text-align: center;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact .loc h4 i{
+  color: #ffcc33;
+}
+.contact .loc h4{
+  color: white;
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+.contact .loc p{
+  color: white;
+}
+.contacts .ico i{
+  color: #ffcc33;
+  margin: 8px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
